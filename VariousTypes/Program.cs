@@ -26,6 +26,18 @@ namespace VariousTypes
             Console.WriteLine($"This is ushort: {shortx}");
             Console.WriteLine($"This is uint: {unity}");
             Console.WriteLine($"This is ulong: {longface}");
+
+            // Exercise 3 - char
+
+            char char1 = '\uF0BC';
+            char char2 = '\uF394';
+            char char3 = '\uF571';
+            char char4 = '\u59AE';
+
+            Console.WriteLine(char1);
+            Console.WriteLine(char2);
+            Console.WriteLine(char3);
+            Console.WriteLine(char4);
         }
     }
 }
