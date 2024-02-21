@@ -38,6 +38,18 @@ namespace VariousTypes
             Console.WriteLine(char2);
             Console.WriteLine(char3);
             Console.WriteLine(char4);
+
+            // Exercise 3 - reais
+
+            float floaty = 4.32f;
+            double cheese = 8.64;
+            decimal dec = 16.128m;
+
+            Console.WriteLine($"This is float: {floaty}");
+            Console.WriteLine($"This is double: {cheese}");
+            Console.WriteLine($"This is decimal: {dec}");
+
+
         }
     }
 }
