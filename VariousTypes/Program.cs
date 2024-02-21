@@ -49,6 +49,14 @@ namespace VariousTypes
             Console.WriteLine($"This is double: {cheese}");
             Console.WriteLine($"This is decimal: {dec}");
 
+            // Exercise 3 - booleans
+
+            bool conTrue = true;
+            bool conFalse = false;
+
+            Console.WriteLine(conTrue);
+            Console.WriteLine(conFalse);
+
 
         }
     }
