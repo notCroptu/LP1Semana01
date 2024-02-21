@@ -34,6 +34,15 @@ namespace ManyStrings
             Console.WriteLine(concatenated);
             Console.WriteLine(concatenated2);
 
+            //Exercise 6
+
+            double xx = 1.23456;
+            int ii = 19;
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
         }
     }
 }
